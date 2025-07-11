@@ -1,6 +1,11 @@
 import "@testing-library/jest-dom";
 import { render } from "@testing-library/react";
 import NavBar from "../components/NavBar";
+// About.js
+export default function About() {
+  // Component code
+}
+
 
 test("it is exported as a default export", () => {
   try {

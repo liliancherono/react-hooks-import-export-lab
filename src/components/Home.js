@@ -1,11 +1,9 @@
 import React from "react";
 
-function Home() {
+export default function Home() {
   return (
     <div id="home">
-      <h1>
-        {username} is a Web Developer from {city}
-      </h1>
+      <h1>Welcome to my website!</h1>
     </div>
   );
 }
